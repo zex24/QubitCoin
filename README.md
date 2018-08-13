@@ -1,7 +1,7 @@
 Qubitcoin Core integration/staging tree
 =======================================
 
-https://www.qubitcoin.org
+https://qubitcoin.cc
 
 What is Qubitcoin?
 -----------------
@@ -13,7 +13,7 @@ out collectively by the network. Qubitcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Qubitcoin Core software, see https://www.qubitcoin.org/.
+the Qubitcoin Core software, see https://qubitcoin.cc
 
 License
 -------
