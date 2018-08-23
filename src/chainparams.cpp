@@ -86,10 +86,10 @@ public:
                
         assert(consensus.hashGenesisBlock == uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"));
 
-        vSeeds.push_back(CDNSSeedData("q2c1.ignorelist.com", "q2c1.ignorelist.com"));
-        vSeeds.push_back(CDNSSeedData("q2c2.ignorelist.com", "q2c2.ignorelist.com"));
-        vSeeds.push_back(CDNSSeedData("q2c3.ignorelist.com", "q2c3.ignorelist.com"));
-        vSeeds.push_back(CDNSSeedData("q2c4.ignorelist.com", "q2c4.ignorelist.com"));
+        vSeeds.push_back(CDNSSeedData("seed1.qubitcoindnsseed.cc", "seed1.qubitcoindnsseed.cc"));
+        vSeeds.push_back(CDNSSeedData("seed2.qubitcoindnsseed.cc", "seed2.qubitcoindnsseed.cc"));
+        vSeeds.push_back(CDNSSeedData("seed3.qubitcoindnsseed.cc", "seed3.qubitcoindnsseed.cc"));
+        vSeeds.push_back(CDNSSeedData("seed4.qubitcoindnsseed.cc", "seed4.qubitcoindnsseed.cc"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,9);
@@ -110,9 +110,18 @@ public:
             boost::assign::map_list_of
             ( 0,      uint256S("0x0000049ce6324e2f3f17eec90ce7e1f0bc9bcb44f85d769621d83cbb223ddc03"))
             ( 284003, uint256S("0x0000000004dca4fce21f6c07cd8d47fa7303b6309d3522dda059ec333883e73d"))
-            (1800000, uint256S("0x00000bfc5ce5dab0462a504252309c05cc6388cbd530a96163d584250f514c8e")),
-            1470061476, // * UNIX timestamp of last checkpoint block
-            2175856,    // * total number of transactions between genesis and last checkpoint
+            ( 500000, uint256S("0x00000000c6fd0c27b0720ddaa0964648ef129f2fe71515c1f14ff3d6513b8727"))
+            (1000000, uint256S("0x000000021695f9272e946252ac369851e8590e714979464a276d10d53529f796"))
+            (1500000, uint256S("0x0000031834b954d640539ac1701747f3185e863cbe6b417dcbab60bff94b3724"))
+            (1800000, uint256S("0x00000bfc5ce5dab0462a504252309c05cc6388cbd530a96163d584250f514c8e"))
+            (2000000, uint256S("0x00000048d57a1e169b484c84104dc4dec7c84099d008f34c5fd42e851b7d29e6"))
+            (2500000, uint256S("0x000001a6a12b5935130fe208f59415b89613293017229df92142c0ad97856730"))
+            (3000000, uint256S("0x000000003d39317ead0caa21780cff3f19e2a456371f47eefa87b8f55e5f8d63"))
+            (3500000, uint256S("0x0000000001be667e4c0696950f640c8cd99599daa28f40d5f7e274b2838deea7"))
+            (4000000, uint256S("0x000000000125fce36c8c79ece7544b24574a51e4dfdf4cef5f6d23346bc29e1a"))
+            (4100000, uint256S("0x0000000004292c86c532a15bd7127161c03d89f64e939e9c81e0fac4a7cf49f8")),
+            1534135563, // * UNIX timestamp of last checkpoint block
+            4544467,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             2880.0      // * estimated number of transactions per day after checkpoint
         };
